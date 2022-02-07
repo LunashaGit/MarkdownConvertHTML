@@ -4,57 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>MarkdownToHtml</title>
 </head>
 <body>
-    <h1>Luna Muylkens</h1>
-    <i>Hapiness is not by chance. But by Choice</i><br> 
-    <img src="img.jpg">
-    <h1>"Me, in one sentence"</h1>
-    <table>
-        <thead>
-            <tr>
-                <th><h1>Me</h1></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Birthday :</td>
-                <td>17/12</td>
-            </tr>
-            <tr>
-                <td>Favorite Color:</td>
-                <td>Black</td>
-            </tr>
-            <tr>
-                <td>Favorite Food :</td>
-                <td>Dagobert</td>
-            </tr>
-            <tr>
-                <td>Pinneaple on pizza :</td>
-                <td>[x] Yes</td>
-            </tr>
-        </tbody>
-        </table>
+    <section class="header">
+        <h1>Luna Muylkens : </h1>
+        <i>```Hapiness is not by chance. But by Choice```</i>
+    </section>
+        <img src="img.jpg">
+    <section>
+        <h1>"Me, in one sentence"</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2"><h1>Me</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Birthday :</td>
+                    <td>17/12</td>
+                </tr>
+                <tr>
+                    <td>Favorite Color:</td>
+                    <td>Black</td>
+                </tr>
+                <tr>
+                    <td>Favorite Food :</td>
+                    <td>Dagobert</td>
+                </tr>
+                <tr>
+                    <td>Pinneaple on pizza :</td>
+                    <td>[x] Yes</td>
+                </tr>
+            </tbody>
+            </table>
+    </section>
+    <section>
         <h1>Hobbies</h1>
         <ul>
             <li>Video Games</li>
+            <ul>
+                <li>World of warcraft</li>
+                <li>FFXIV</li>
+            </ul>
             <li>Eat</li>
         </ul>
-        <h1>Video game</h1>
-        <ul>
-            <li>World of warcraft</li>
-            <li>FFXIV</li>
-        </ul>
+    </section>
+    <section>   
         <h1>You can always count on me when...</h1>
-        <i>You can always count on me when, i think we do the job with the positive and team!!</i>
+        <p><i>You can always count on me when, i think we do the job with the positive and team!!</i></p>
+    </section>
+    <section>
         <h1>I'm a Funny Story</h1>
-        <i>I was born male but now i'm a female, 2000 Year is nice</i>
+        <p><i>I was born male but now i'm a female, 2000 Year is nice</i></p>
+    </section>
+    <section>
         <h1>TL;DR</h1>
-        <i>My sexe was change</i>
+        <p><i>My sexe was change</i></p>
+    </section>
+    <section class="link">
         <p>The links should have the following structure :</p>
         <a href="https://github.com/Reptilz/markdown-challenge"><p>Previous</p></a>
         <a href="https://github.com/LunashaGit/Markdown-Challenge/blob/main/README.md"><p>Luna</p></a>
         <a href="https://github.com/Frenzen-code"><p>Next</p></a>
-</body>
+    </section>
+    </body>
 </html>

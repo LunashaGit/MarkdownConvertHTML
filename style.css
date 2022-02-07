@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 89, 125);
+}
+
+.header{
+    text-align: center;
+    box-sizing: content-box;
+    border: solid #FFF 5px;
+    padding-bottom: 2%;
+}
+
+img{
+    margin-top: 2%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25%;
+}
+
+table, td, th{
+    border:solid #000 5px;
+    text-align: center;
+}
+
+h1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
